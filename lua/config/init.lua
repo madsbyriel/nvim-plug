@@ -4,7 +4,7 @@ require("plugs.lualine")
 require("plugs.neo-tree")
 require("plugs.mason")
 require("plugs.nvimcmp")
--- require("plugs.treesitter")
+require("plugs.treesitter")
 require("plugs.harpoon")
 require("plugs.catppuccin")
 
