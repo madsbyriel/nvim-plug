@@ -8,7 +8,7 @@ vim.call('plug#begin')
 
 Plug('catppuccin/nvim', { ['as'] = 'catppuccin' })
 
-Plug('nvim-treesitter/nvim-treesitter')
+Plug('nvim-treesitter/nvim-treesitter', { ['do'] = ':TSUpdate', ['tag'] = 'master' })
 
 Plug('nvim-lualine/lualine.nvim')
 Plug('nvim-tree/nvim-web-devicons')
