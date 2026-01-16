@@ -6,7 +6,8 @@ require("plugs.mason")
 require("plugs.nvimcmp")
 require("plugs.treesitter")
 require("plugs.harpoon")
-require("plugs.catppuccin")
+-- require("plugs.catppuccin")
+require("plugs.gruvbox")
 
 
 -- Set some lsp functionality. Telescope is goated

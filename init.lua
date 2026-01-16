@@ -7,6 +7,8 @@ vim.call('plug#begin')
 -- missing typescript-tools
 
 Plug('catppuccin/nvim', { ['as'] = 'catppuccin' })
+Plug('ellisonleao/gruvbox.nvim')
+
 
 Plug('nvim-treesitter/nvim-treesitter', { ['do'] = ':TSUpdate', ['tag'] = 'master' })
 
