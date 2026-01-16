@@ -1,7 +1,14 @@
 require'nvim-treesitter.configs'.setup {
     ensure_installed = { "lua", "rust", "zig", "python", "c_sharp", "go" }, -- Auto-install C# parser
+    auto_install = true,
     highlight = {
         enable = true,
+
+        -- default highlighting is better than these
+        disable = {
+            "csv",
+            "gitcommit"
+        }
     },
 }
 
