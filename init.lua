@@ -8,6 +8,7 @@ vim.call('plug#begin')
 
 Plug('catppuccin/nvim', { ['as'] = 'catppuccin' })
 Plug('ellisonleao/gruvbox.nvim')
+Plug('lunarvim/templeos.nvim')
 
 
 Plug('nvim-treesitter/nvim-treesitter', { ['do'] = ':TSUpdate', ['tag'] = 'master' })
