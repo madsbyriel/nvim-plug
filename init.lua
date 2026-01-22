@@ -10,7 +10,6 @@ Plug('catppuccin/nvim', { ['as'] = 'catppuccin' })
 Plug('ellisonleao/gruvbox.nvim')
 Plug('lunarvim/templeos.nvim')
 
-
 Plug('nvim-treesitter/nvim-treesitter', { ['do'] = ':TSUpdate', ['tag'] = 'master' })
 
 Plug('nvim-lualine/lualine.nvim')
@@ -27,6 +26,7 @@ Plug('hrsh7th/cmp-path')
 Plug('hrsh7th/cmp-cmdline')
 Plug('hrsh7th/nvim-cmp')
 
+Plug('nvim-flutter/flutter-tools.nvim')
 Plug('seblyng/roslyn.nvim')
 Plug('neovim/nvim-lspconfig')
 Plug('williamboman/mason.nvim')
