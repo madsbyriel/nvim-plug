@@ -6,6 +6,10 @@ vim.call('plug#begin')
 -- missing blink
 -- missing typescript-tools
 
+Plug("folke/noice.nvim")
+Plug("MunifTanjim/nui.nvim")
+Plug("rcarriga/nvim-notify")
+
 Plug('catppuccin/nvim', { ['as'] = 'catppuccin' })
 Plug('ellisonleao/gruvbox.nvim')
 Plug('lunarvim/templeos.nvim')

@@ -8,6 +8,7 @@ require("plugs.treesitter")
 require("plugs.harpoon")
 -- require("plugs.catppuccin")
 require("plugs.gruvbox")
+require("plugs.noice")
 
 
 -- Set some lsp functionality. Telescope is goated
