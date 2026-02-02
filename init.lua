@@ -5,6 +5,9 @@ vim.call('plug#begin')
 
 -- missing blink
 -- missing typescript-tools
+Plug("MeanderingProgrammer/render-markdown.nvim")
+Plug("nvim-treesitter/nvim-treesitter")
+Plug("nvim-mini/mini.nvim")
 
 Plug("folke/noice.nvim")
 Plug("MunifTanjim/nui.nvim")
