@@ -10,6 +10,7 @@ require("plugs.markdown")
 require("plugs.blame")
 -- require("plugs.catppuccin")
 require("plugs.noice")
+require("plugs.dap")
 
 local theme = os.getenv("THEME")
 
@@ -21,7 +22,6 @@ end
 if theme == "catppuccin" then
     require("plugs.catppuccin")
 end
-
 
 
 -- Set some lsp functionality. Telescope is goated
@@ -37,6 +37,13 @@ vim.api.nvim_set_keymap('n', '<leader>lf', '<cmd>lua vim.lsp.buf.format()<CR>', 
 vim.api.nvim_set_keymap('n', '<leader>es', '<cmd>lua vim.diagnostic.open_float()<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<leader>ek', '<cmd>lua vim.diagnostic.goto_prev()<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<leader>ej', '<cmd>lua vim.diagnostic.goto_next()<CR>', { noremap = true, silent = true })
+
+
+-- DAP
+vim.api.nvim_set_keymap('n', '<leader>db', '<cmd>DapToggleBreakpoint<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>dt', '<cmd>DapTerminate<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>dc', '<cmd>DapContinue<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>dr', '<cmd>DapToggleRepl<CR>', { noremap = true, silent = true })
 
 
 -- Quick fix list

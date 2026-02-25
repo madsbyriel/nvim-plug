@@ -34,8 +34,6 @@ Plug('hrsh7th/cmp-buffer')
 Plug('hrsh7th/cmp-path')
 Plug('hrsh7th/cmp-cmdline')
 Plug('hrsh7th/nvim-cmp')
-
-Plug('nvim-flutter/flutter-tools.nvim')
 Plug('seblyng/roslyn.nvim')
 Plug('neovim/nvim-lspconfig')
 Plug('williamboman/mason.nvim')
@@ -49,6 +47,8 @@ Plug('ThePrimeagen/harpoon', {['tag'] = 'harpoon2'})
 
 Plug('nvim-telescope/telescope-fzf-native.nvim', {['do'] = 'make'})
 Plug('nvim-telescope/telescope.nvim')
+
+Plug('mfussenegger/nvim-dap')
 
 vim.call('plug#end')
 
