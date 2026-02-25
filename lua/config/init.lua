@@ -9,8 +9,19 @@ require("plugs.harpoon")
 require("plugs.markdown")
 require("plugs.blame")
 -- require("plugs.catppuccin")
-require("plugs.gruvbox")
 require("plugs.noice")
+
+local theme = os.getenv("THEME")
+
+if theme == nil then
+end
+if theme == "gruvbox" then
+    require("plugs.gruvbox")
+end
+if theme == "catppuccin" then
+    require("plugs.catppuccin")
+end
+
 
 
 -- Set some lsp functionality. Telescope is goated

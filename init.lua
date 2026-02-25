@@ -5,6 +5,10 @@ vim.call('plug#begin')
 
 -- missing blink
 -- missing typescript-tools
+Plug('catppuccin/nvim', { ['as'] = 'catppuccin' })
+Plug('ellisonleao/gruvbox.nvim')
+Plug('lunarvim/templeos.nvim')
+
 Plug("MeanderingProgrammer/render-markdown.nvim")
 Plug("nvim-treesitter/nvim-treesitter")
 Plug("nvim-mini/mini.nvim")
@@ -14,10 +18,6 @@ Plug("FabijanZulj/blame.nvim")
 Plug("folke/noice.nvim")
 Plug("MunifTanjim/nui.nvim")
 -- Plug("rcarriga/nvim-notify")
-
-Plug('catppuccin/nvim', { ['as'] = 'catppuccin' })
-Plug('ellisonleao/gruvbox.nvim')
-Plug('lunarvim/templeos.nvim')
 
 Plug('nvim-treesitter/nvim-treesitter', { ['do'] = ':TSUpdate', ['tag'] = 'master' })
 
