@@ -22,6 +22,9 @@ end
 if theme == "catppuccin" then
     require("plugs.catppuccin")
 end
+if theme == "cyberpunk" then
+    require("plugs.cyberpunk")
+end
 
 
 -- Set some lsp functionality. Telescope is goated

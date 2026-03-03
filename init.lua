@@ -5,6 +5,7 @@ vim.call('plug#begin')
 
 -- missing blink
 -- missing typescript-tools
+Plug('madsbyriel/cyberpunk', { ['as'] = 'cyberpunk' })
 Plug('catppuccin/nvim', { ['as'] = 'catppuccin' })
 Plug('ellisonleao/gruvbox.nvim')
 Plug('lunarvim/templeos.nvim')
