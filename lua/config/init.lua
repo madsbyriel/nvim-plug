@@ -14,16 +14,18 @@ require("plugs.dap")
 
 local theme = os.getenv("THEME")
 
-if theme == nil then
-end
 if theme == "gruvbox" then
     require("plugs.gruvbox")
-end
-if theme == "catppuccin" then
+elseif theme == "catppuccin" then
     require("plugs.catppuccin")
-end
-if theme == "cyberpunk" then
+elseif theme == "cyberpunk" then
     require("plugs.cyberpunk")
+elseif theme == "templeos" then
+    require("plugs.templeos")
+elseif theme == "sandstorm" then
+    require("plugs.sandstorm")
+else
+    require("plugs.catppuccin")
 end
 
 
