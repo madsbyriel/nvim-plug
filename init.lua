@@ -6,9 +6,10 @@ vim.call('plug#begin')
 -- missing blink
 -- missing typescript-tools
 Plug('madsbyriel/cyberpunk', { ['as'] = 'cyberpunk' })
-Plug('madsbyriel/sandstorm', { ['as'] = 'sandstorm' })
+-- Plug('madsbyriel/sandstorm', { ['as'] = 'sandstorm' })
 Plug('catppuccin/nvim', { ['as'] = 'catppuccin' })
 Plug('ellisonleao/gruvbox.nvim')
+Plug('madsbyriel/sandstorm.nvim')
 Plug('lunarvim/templeos.nvim')
 
 Plug("MeanderingProgrammer/render-markdown.nvim")
