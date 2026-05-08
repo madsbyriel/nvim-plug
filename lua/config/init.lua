@@ -24,6 +24,8 @@ elseif theme == "templeos" then
     require("plugs.templeos")
 elseif theme == "sandstorm" then
     require("plugs.sandstorm")
+elseif theme == "evergreen" then
+    require("plugs.evergreen")
 else
     require("plugs.catppuccin")
 end
