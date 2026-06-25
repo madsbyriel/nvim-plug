@@ -12,6 +12,7 @@ Plug('ellisonleao/gruvbox.nvim')
 Plug('madsbyriel/sandstorm.nvim')
 Plug('madsbyriel/evergreen.nvim')
 Plug('lunarvim/templeos.nvim')
+Plug('supermaven-inc/supermaven-nvim')
 
 Plug("MeanderingProgrammer/render-markdown.nvim")
 Plug("nvim-treesitter/nvim-treesitter")

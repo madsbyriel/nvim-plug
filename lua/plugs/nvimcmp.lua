@@ -23,6 +23,7 @@ cmp.setup({
     }),
     sources = cmp.config.sources({
         { name = 'nvim_lsp' },
+        { name = 'supermaven' },
         { name = 'luasnip' },
         {
             name = 'path',
