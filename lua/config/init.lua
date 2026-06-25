@@ -51,6 +51,8 @@ vim.api.nvim_set_keymap('n', '<leader>db', '<cmd>DapToggleBreakpoint<CR>', { nor
 vim.api.nvim_set_keymap('n', '<leader>dt', '<cmd>DapTerminate<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<leader>dc', '<cmd>DapContinue<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<leader>dr', '<cmd>DapToggleRepl<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>dj', '<cmd>DapStepOver<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n', '<leader>dl', '<cmd>DapStepInto<CR>', { noremap = true, silent = true })
 
 
 -- Quick fix list
