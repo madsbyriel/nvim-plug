@@ -12,6 +12,7 @@ require("plugs.blame")
 require("plugs.noice")
 require("plugs.dap")
 require("plugs.supermaven")
+require("plugs.artificial")
 
 local theme = os.getenv("THEME")
 

@@ -3,6 +3,20 @@ local Plug = vim.fn['plug#']
 
 vim.call('plug#begin')
 
+Plug('nvim-lua/plenary.nvim')
+Plug('MunifTanjim/nui.nvim')
+Plug('MeanderingProgrammer/render-markdown.nvim')
+
+Plug('hrsh7th/nvim-cmp')
+Plug('nvim-tree/nvim-web-devicons')
+Plug('HakonHarnes/img-clip.nvim')
+Plug('zbirenbaum/copilot.lua')
+Plug('stevearc/dressing.nvim')
+Plug('folke/snacks.nvim')
+
+Plug('yetone/avante.nvim', { ['do'] = 'make', ['tag'] = 'main' })
+
+
 -- missing blink
 -- missing typescript-tools
 Plug('madsbyriel/cyberpunk', { ['as'] = 'cyberpunk' })
