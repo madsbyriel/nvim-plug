@@ -14,6 +14,7 @@ require("plugs.dap")
 require("plugs.supermaven")
 
 local theme = os.getenv("THEME")
+vim.opt.bomb = false
 
 if theme == "gruvbox" then
     require("plugs.gruvbox")

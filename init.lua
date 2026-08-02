@@ -15,7 +15,6 @@ Plug('lunarvim/templeos.nvim')
 Plug('supermaven-inc/supermaven-nvim')
 
 Plug("MeanderingProgrammer/render-markdown.nvim")
-Plug("nvim-treesitter/nvim-treesitter")
 Plug("nvim-mini/mini.nvim")
 
 Plug("FabijanZulj/blame.nvim")
@@ -24,7 +23,9 @@ Plug("folke/noice.nvim")
 Plug("MunifTanjim/nui.nvim")
 -- Plug("rcarriga/nvim-notify")
 
-Plug('nvim-treesitter/nvim-treesitter', { ['do'] = ':TSUpdate', ['tag'] = 'master' })
+-- old treesitter had major bugs with readme
+-- Plug("nvim-treesitter/nvim-treesitter")
+Plug('nvim-treesitter/nvim-treesitter', { ['do'] = ':TSUpdate', ['tag'] = 'main' })
 
 Plug('nvim-lualine/lualine.nvim')
 Plug('nvim-tree/nvim-web-devicons')
