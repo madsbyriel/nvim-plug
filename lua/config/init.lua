@@ -11,6 +11,9 @@ require("plugs.blame")
 -- require("plugs.catppuccin")
 require("plugs.noice")
 require("plugs.dap")
+require("plugs.dapui")
+require("plugs.dap-virtual-text")
+require("plugs.neotest")
 require("plugs.supermaven")
 
 local theme = os.getenv("THEME")
@@ -55,6 +58,16 @@ vim.api.nvim_set_keymap('n', '<leader>dc', '<cmd>DapContinue<CR>', { noremap = t
 vim.api.nvim_set_keymap('n', '<leader>dr', '<cmd>DapToggleRepl<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<leader>dj', '<cmd>DapStepOver<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<leader>dl', '<cmd>DapStepInto<CR>', { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>du', function() require("dapui").toggle() end, { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>de', function() require("dapui").eval() end, { noremap = true, silent = true })
+
+
+-- Test (neotest)
+vim.keymap.set('n', '<leader>tt', function() require("neotest").run.run() end, { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>td', function() require("neotest").run.run({ strategy = "dap" }) end, { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>tf', function() require("neotest").run.run(vim.fn.expand("%")) end, { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>to', function() require("neotest").output.open({ enter = true }) end, { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>ts', function() require("neotest").summary.toggle() end, { noremap = true, silent = true })
 
 
 -- Quick fix list

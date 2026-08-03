@@ -55,6 +55,11 @@ Plug('nvim-telescope/telescope-fzf-native.nvim', {['do'] = 'make'})
 Plug('nvim-telescope/telescope.nvim')
 
 Plug('mfussenegger/nvim-dap')
+Plug('nvim-neotest/nvim-nio')
+Plug('rcarriga/nvim-dap-ui')
+Plug('theHamsta/nvim-dap-virtual-text')
+Plug('nvim-neotest/neotest')
+Plug('Issafalcon/neotest-dotnet')
 
 vim.call('plug#end')
 
